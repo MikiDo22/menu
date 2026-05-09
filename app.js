@@ -118,7 +118,7 @@ let btns=buttons.forEach((btn)=>{
         return item;
       }
     })
-    if (CustomElementRegistry==="all"){
+    if (currentTarget==="all"){
       displayMenuItems(menu)
     }
     else {
